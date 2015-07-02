@@ -26,11 +26,11 @@ $layout--header-navigation-height: 100px; // Height of both first and second lev
     transform: translateZ(0);
 
     &.is-sticky {
-        position:fixed;
+        position: fixed;
 
         // prevents misplaced header on Android 2.x
-        top : 0;
-        left:0
+        top: 0;
+        left: 0;
     }
 
     &.is-narrow {
