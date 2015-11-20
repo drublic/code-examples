@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var sass = require('gulp-sass');
 
-gulp.task('jshint', function() {
+gulp.task('jshint', function () {
   return gulp.src('./js/**/*.js')
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
